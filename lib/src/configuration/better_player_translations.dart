@@ -137,4 +137,49 @@ class BetterPlayerTranslations {
         overflowMenuQuality: "Calidad",
         qualityAuto: "Automática",
       );
+
+  factory BetterPlayerTranslations.portuguese() => BetterPlayerTranslations(
+      languageCode: "pt",
+      generalDefaultError: "Não foi possível reproduzir o vídeo",
+      generalNone: "Nenhum",
+      generalDefault: "Padrão",
+      generalRetry: "Tentar novamente",
+      controlsLive: "AO VIVO",
+      playlistLoadingNextVideo: "Carregando próximo vídeo",
+      controlsNextVideoIn: "Próximo vídeo em",
+      overflowMenuPlaybackSpeed: "Velocidade de reprodução",
+      overflowMenuSubtitles: "Legendas",
+      overflowMenuQuality: "Qualidade",
+      qualityAuto: "Automática",
+      overflowMenuAudioTracks: "Áudio");
+
+  factory BetterPlayerTranslations.persian() => BetterPlayerTranslations(
+      languageCode: "fa",
+      generalDefaultError: "ویدیو نمیتواند پخش شود",
+      generalNone: "خالی",
+      generalDefault: "پیش فرض",
+      generalRetry: "تلاش دوباره",
+      playlistLoadingNextVideo: "بارگزاری ویدیو بعدی",
+      controlsLive: "زنده",
+      controlsNextVideoIn: "ویدیو بعدی",
+      overflowMenuPlaybackSpeed: "سرعت پخش",
+      overflowMenuSubtitles: "زیرنویس",
+      overflowMenuQuality: "کیفیت",
+      overflowMenuAudioTracks: "صدا",
+      qualityAuto: "خودکار");
+
+  factory BetterPlayerTranslations.greek() => BetterPlayerTranslations(
+      languageCode: "el",
+      generalDefaultError: "Το βίντεο δεν μπορεί να αναπαραχθεί",
+      generalNone: "Κανένα",
+      generalDefault: "Προεπιλογή",
+      generalRetry: "Δοκιμάστε ξανά",
+      playlistLoadingNextVideo: "Φόρτωση επόμενου βίντεο",
+      controlsLive: "ΖΩΝΤΑΝΑ",
+      controlsNextVideoIn: "Επόμενο βίντεο σε",
+      overflowMenuPlaybackSpeed: "Ταχύτητα αναπαραγωγής",
+      overflowMenuSubtitles: "Υπότιτλοι",
+      overflowMenuQuality: "Ποιότητα",
+      overflowMenuAudioTracks: "Ήχος",
+      qualityAuto: "Αυτόματο");
 }
