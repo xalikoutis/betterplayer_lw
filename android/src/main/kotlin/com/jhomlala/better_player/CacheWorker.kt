@@ -7,10 +7,10 @@ import com.jhomlala.better_player.DataSourceUtils.isHTTP
 import com.jhomlala.better_player.DataSourceUtils.getUserAgent
 import com.jhomlala.better_player.DataSourceUtils.getDataSourceFactory
 import androidx.work.WorkerParameters
-import com.google.android.exoplayer2.upstream.cache.CacheWriter
+import androidx.media3.datasource.cache.CacheWriter
 import androidx.work.Worker
-import com.google.android.exoplayer2.upstream.DataSpec
-import com.google.android.exoplayer2.upstream.HttpDataSource.HttpDataSourceException
+import androidx.media3.datasource.DataSpec
+import androidx.media3.datasource.HttpDataSource.HttpDataSourceException
 import java.lang.Exception
 import java.util.*
 
